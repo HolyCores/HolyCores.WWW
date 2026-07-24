@@ -1,7 +1,7 @@
-<svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
-  <g transform="skewX(-11)" fill="#d8ff36">
-    <rect x="7" y="2" width="6" height="22"/>
-    <rect x="16" y="7" width="6" height="22"/>
-    <rect x="25" y="2" width="6" height="22"/>
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <g transform="translate(6 4) skewX(-11)" fill="#d8ff36">
+    <rect x="7" y="4" width="7" height="27"/>
+    <rect x="17" y="9" width="7" height="27"/>
+    <rect x="27" y="4" width="7" height="27"/>
   </g>
 </svg>
