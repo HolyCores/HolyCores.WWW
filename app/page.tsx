@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <header className="nav">
         <a className="brand" href="#top" aria-label="HOLYCORES 首页">
-          <span className="brand-mark"><i /><i /><i /></span>
+          <img className="brand-logo" src="/brand/logo-2.0-web.png" alt="" />
           <strong>HOLYCORES</strong>
         </a>
         <nav aria-label="主导航">
@@ -60,11 +60,11 @@ export default function Home() {
           <p>统一架构，灵活扩展。为每一种智能负载提供恰到好处的算力。</p>
         </div>
         <div className="product-grid">
-          <article className="product-card lime">
-            <div className="card-top"><span>01</span><span>EDGE AI</span></div>
-            <div className="mini-chip"><i /><i /><b>HC<br />LITE</b></div>
-            <div><h3>灵核 · LITE</h3><p>低功耗边缘推理芯片</p></div>
-            <a href="#contact" aria-label="了解灵核 LITE"><Arrow /></a>
+          <article className="product-card ice">
+            <div className="card-top"><span>01</span><span>CLOUD AI SYSTEM</span></div>
+            <div className="cube"><span>HC</span></div>
+            <div><h3>天穹 · GALAXY</h3><p>大规模云端智算集群</p></div>
+            <a href="#contact" aria-label="了解天穹 GALAXY"><Arrow /></a>
           </article>
           <article className="product-card violet">
             <div className="card-top"><span>02</span><span>AI ACCELERATOR</span></div>
@@ -72,11 +72,11 @@ export default function Home() {
             <div><h3>星核 · NOVA</h3><p>数据中心 AI 加速卡</p></div>
             <a href="#contact" aria-label="了解星核 NOVA"><Arrow /></a>
           </article>
-          <article className="product-card ice">
-            <div className="card-top"><span>03</span><span>SCALE-OUT SYSTEM</span></div>
-            <div className="cube"><span>HC</span></div>
-            <div><h3>天穹 · GALAXY</h3><p>大规模智算集群</p></div>
-            <a href="#contact" aria-label="了解天穹 GALAXY"><Arrow /></a>
+          <article className="product-card lime">
+            <div className="card-top"><span>03</span><span>EDGE AI</span></div>
+            <div className="mini-chip"><i /><i /><b>HC<br />SPARK</b></div>
+            <div><h3>灵核 · SPARK</h3><p>低功耗边缘推理芯片</p></div>
+            <a href="#contact" aria-label="了解灵核 SPARK"><Arrow /></a>
           </article>
         </div>
       </section>
@@ -116,7 +116,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <a className="brand footer-brand" href="#top"><span className="brand-mark"><i /><i /><i /></span><strong>HOLYCORES</strong></a>
+        <a className="brand footer-brand" href="#top"><img className="brand-logo" src="/brand/logo-2.0-web.png" alt="" /><strong>HOLYCORES</strong></a>
         <p>开放架构。极致性能。无限智能。</p>
         <div><span>© 2026 HOLYCORES</span><a href="#top">返回顶部 ↑</a></div>
       </footer>
