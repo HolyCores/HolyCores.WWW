@@ -55,7 +55,7 @@ export default function Home() {
         <div className="section-head">
           <div>
             <p className="section-label">产品矩阵 / COMPUTE AT EVERY SCALE</p>
-            <h2>从边缘，到云端。</h2>
+            <h2>从云端，到边缘。</h2>
           </div>
           <p>统一架构，灵活扩展。为每一种智能负载提供恰到好处的算力。</p>
         </div>
