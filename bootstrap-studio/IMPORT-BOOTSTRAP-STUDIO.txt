@@ -1,0 +1,10 @@
+HOLYCORES / Bootstrap Studio 导入说明
+
+1. 请先完整解压 ZIP，不要直接从压缩包内打开 HTML。
+2. 保持 HTML 文件与 assets 文件夹的相对位置不变。
+3. 在 Bootstrap Studio 中选择 File > Import，一次选中根目录内的全部 HTML 文件。
+4. Bootstrap Studio 会扫描 HTML，并自动导入 assets/img 中被引用的 JPG 图片。
+5. 如果出现 Image Optimization 提示，可选择 Optimize 或 Keep Original；两者都能正常显示。
+6. 导入完成后，请另存为 .bsdesign 项目文件。
+
+主视觉图片目录：assets/img/
