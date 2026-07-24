@@ -9,12 +9,13 @@ export default function Home() {
           <strong>HOLYCORES</strong>
         </a>
         <nav aria-label="主导航">
-          <a href="#compute">算力平台</a>
-          <a href="#architecture">核心架构</a>
-          <a href="#software">软件生态</a>
-          <a href="#company">关于我们</a>
+          <a href="/products">产品</a>
+          <a href="/software">软件</a>
+          <a href="/solutions">解决方案</a>
+          <a href="/developers">开发者</a>
+          <a href="/company">公司</a>
         </nav>
-        <a className="nav-cta" href="#contact">联系团队 <Arrow /></a>
+        <div className="nav-actions"><a href="/en">EN</a><a className="nav-cta" href="/contact">联系团队 <Arrow /></a></div>
       </header>
 
       <section className="hero" id="top">
@@ -23,8 +24,8 @@ export default function Home() {
           <h1>算力，生而<br />自由。</h1>
           <p className="lead">HOLYCORES 构建面向下一代人工智能的高性能计算平台，让先进算力更开放、更高效、更易于规模化。</p>
           <div className="actions">
-            <a className="button primary" href="#compute">探索产品 <Arrow /></a>
-            <a className="button ghost" href="#architecture">了解架构 <span>→</span></a>
+            <a className="button primary" href="/products">探索产品 <Arrow /></a>
+            <a className="button ghost" href="/software">了解软件 <span>→</span></a>
           </div>
         </div>
         <div className="core-visual" aria-label="HOLYCORES 芯片架构概念图">
@@ -64,19 +65,19 @@ export default function Home() {
             <div className="card-top"><span>01</span><span>CLOUD AI SYSTEM</span></div>
             <div className="cube"><span>HC</span></div>
             <div><h3>天穹 · GALAXY</h3><p>大规模云端智算集群</p></div>
-            <a href="#contact" aria-label="了解天穹 GALAXY"><Arrow /></a>
+            <a href="/products/galaxy" aria-label="了解天穹 GALAXY"><Arrow /></a>
           </article>
           <article className="product-card violet">
             <div className="card-top"><span>02</span><span>AI ACCELERATOR</span></div>
             <div className="rack"><i /><i /><i /><strong>NOVA</strong></div>
             <div><h3>星核 · NOVA</h3><p>数据中心 AI 加速卡</p></div>
-            <a href="#contact" aria-label="了解星核 NOVA"><Arrow /></a>
+            <a href="/products/nova" aria-label="了解星核 NOVA"><Arrow /></a>
           </article>
           <article className="product-card lime">
             <div className="card-top"><span>03</span><span>EDGE AI</span></div>
             <div className="mini-chip"><i /><i /><b>HC<br />SPARK</b></div>
             <div><h3>灵核 · SPARK</h3><p>低功耗边缘推理芯片</p></div>
-            <a href="#contact" aria-label="了解灵核 SPARK"><Arrow /></a>
+            <a href="/products/spark" aria-label="了解灵核 SPARK"><Arrow /></a>
           </article>
         </div>
       </section>
@@ -95,7 +96,7 @@ export default function Home() {
             <li><span>02</span>统一编译与运行时</li>
             <li><span>03</span>开放 SDK 与开发工具</li>
           </ul>
-          <a className="text-link" href="#contact">进入开发者中心 <Arrow /></a>
+          <a className="text-link" href="/developers">进入开发者中心 <Arrow /></a>
         </div>
       </section>
 
