@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://holycores.com"),
   title: "HOLYCORES｜算力，生而自由",
   description: "HOLYCORES 构建面向下一代人工智能的高性能计算平台。",
-  icons: { icon: "/brand/logo-2.0-web.png" },
+  icons: { icon: "/brand/logo-1.0.svg" },
   openGraph: {
     title: "HOLYCORES｜算力，生而自由",
     description: "开放架构。极致性能。无限智能。",

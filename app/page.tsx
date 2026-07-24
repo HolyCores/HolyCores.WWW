@@ -5,7 +5,7 @@ export default function Home() {
     <main>
       <header className="nav">
         <a className="brand" href="#top" aria-label="HOLYCORES 首页">
-          <img className="brand-logo" src="/brand/logo-2.0-web.png" alt="" />
+          <img className="brand-logo" src="/brand/logo-1.0.svg" alt="" />
           <strong>HOLYCORES</strong>
         </a>
         <nav aria-label="主导航">
@@ -116,7 +116,7 @@ export default function Home() {
       </section>
 
       <footer>
-        <a className="brand footer-brand" href="#top"><img className="brand-logo" src="/brand/logo-2.0-web.png" alt="" /><strong>HOLYCORES</strong></a>
+        <a className="brand footer-brand" href="#top"><img className="brand-logo" src="/brand/logo-1.0.svg" alt="" /><strong>HOLYCORES</strong></a>
         <p>开放架构。极致性能。无限智能。</p>
         <div><span>© 2026 HOLYCORES</span><a href="#top">返回顶部 ↑</a></div>
       </footer>
