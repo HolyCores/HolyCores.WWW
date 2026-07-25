@@ -61,3 +61,6 @@
 html[lang="zh-CN"] .studio-galaxy #overview .studio-insight-head{grid-template-columns:minmax(0,1.25fr) minmax(320px,.75fr)}
 html[lang="zh-CN"] .studio-galaxy #overview .studio-insight-head>span{justify-self:end;max-width:520px}
 @media(max-width:900px){html[lang="zh-CN"] .studio-galaxy #overview .studio-insight-head{grid-template-columns:1fr}html[lang="zh-CN"] .studio-galaxy #overview .studio-insight-head>span{justify-self:start;max-width:none}}
+.studio-galaxy .family-showcase,.studio-nova .family-showcase,.studio-spark .family-showcase{padding-left:6vw;padding-right:6vw}
+.studio-hardware-detail-hero .studio-visual img{transform:translateX(20px)}
+@media(max-width:900px){.studio-galaxy .family-showcase,.studio-nova .family-showcase,.studio-spark .family-showcase{padding-left:24px;padding-right:24px}}
