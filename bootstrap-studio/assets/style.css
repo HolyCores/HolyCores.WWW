@@ -166,6 +166,14 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
 @media(max-width:900px){.partner-hero{display:block;padding-bottom:0}.partner-hero>div{width:100%;padding:0 0 65px}.partner-hero figure{position:relative;inset:auto;width:calc(100% + 48px);height:430px;margin-left:-24px}.partner-hero figure:after{background:linear-gradient(180deg,#09090a 0%,#09090aaf 12%,transparent 38%)}.partner-split figure{min-height:470px}}
 @media(max-width:900px){html[lang="zh-CN"] .medical-hero h1{font-size:clamp(42px,11vw,62px);white-space:normal}html[lang="en"] .medical-hero h1{font-size:clamp(38px,10vw,58px)}}
 
+/* GALAXY G1 DESKTOP AI SYSTEM */
+.galaxy-family-grid{grid-template-columns:repeat(3,1fr)}
+.galaxy-desktop-story{display:grid;grid-template-columns:.92fr 1.08fr;margin-top:2px;background:#111113;color:#f2f1ec}
+.galaxy-desktop-story>div:first-child{padding:72px 5vw}.galaxy-desktop-story small{font:9px "Geist Mono";letter-spacing:.14em;color:var(--acid)}.galaxy-desktop-story h3{font-size:clamp(36px,4vw,62px);line-height:1;letter-spacing:-.055em;margin:36px 0 25px}.galaxy-desktop-story p{font-size:14px;line-height:1.8;color:#a3a49f}
+.galaxy-desktop-story>div:last-child{display:grid;grid-template-columns:repeat(3,1fr);border-left:1px solid #ffffff24}.galaxy-desktop-story article{min-height:360px;padding:28px 23px;border-right:1px solid #ffffff24;display:flex;flex-direction:column}.galaxy-desktop-story article:last-child{border-right:0}.galaxy-desktop-story b{font-size:20px;line-height:1.2;margin:auto 0 20px}.galaxy-desktop-story span{font-size:11px;line-height:1.7;color:#999a96}
+@media(max-width:1100px){.galaxy-desktop-story{grid-template-columns:1fr}.galaxy-desktop-story>div:last-child{border-left:0;border-top:1px solid #ffffff24}}
+@media(max-width:900px){.galaxy-family-grid{grid-template-columns:1fr}.galaxy-desktop-story>div:first-child{padding:65px 24px}.galaxy-desktop-story>div:last-child{grid-template-columns:1fr}.galaxy-desktop-story article{min-height:220px;border-right:0;border-bottom:1px solid #ffffff24}}
+
 /* SOFTWARE INTERFACE SCREENSHOTS */
 .software-tool-visual-grid{grid-template-columns:repeat(2,1fr)}
 .software-tool-visual-grid figure{height:360px}
