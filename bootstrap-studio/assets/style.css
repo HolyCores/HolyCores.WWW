@@ -165,3 +165,8 @@ html[lang="zh-CN"] .studio-galaxy #overview .studio-insight-head>span{justify-se
 html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height:1;white-space:nowrap}html[lang="en"] .medical-hero h1{font-size:clamp(42px,4.3vw,72px);line-height:1}
 @media(max-width:900px){.partner-hero{display:block;padding-bottom:0}.partner-hero>div{width:100%;padding:0 0 65px}.partner-hero figure{position:relative;inset:auto;width:calc(100% + 48px);height:430px;margin-left:-24px}.partner-hero figure:after{background:linear-gradient(180deg,#09090a 0%,#09090aaf 12%,transparent 38%)}.partner-split figure{min-height:470px}}
 @media(max-width:900px){html[lang="zh-CN"] .medical-hero h1{font-size:clamp(42px,11vw,62px);white-space:normal}html[lang="en"] .medical-hero h1{font-size:clamp(38px,10vw,58px)}}
+
+/* SOFTWARE INTERFACE SCREENSHOTS */
+.software-tool-visual-grid{grid-template-columns:repeat(2,1fr)}
+.software-tool-visual-grid figure{height:360px}
+@media(max-width:900px){.software-tool-visual-grid{grid-template-columns:1fr}.software-tool-visual-grid figure{height:250px}}
