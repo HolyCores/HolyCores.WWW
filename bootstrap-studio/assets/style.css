@@ -255,3 +255,8 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
   .nav-products-menu,.nav-software-menu,.nav-solutions-menu{top:76px!important;transition:opacity .1s ease,transform .1s ease,visibility 0s linear .1s!important}
   .nav-products:hover .nav-products-menu,.nav-products:focus-within .nav-products-menu,.nav-software:hover .nav-software-menu,.nav-software:focus-within .nav-software-menu,.nav-solutions:hover .nav-solutions-menu,.nav-solutions:focus-within .nav-solutions-menu{transition-delay:0s!important}
 }
+
+/* LOCAL MEGA MENU HOVER BRIDGES */
+@media(min-width:901px){
+  .nav-products:after,.nav-software:after,.nav-solutions:after{content:"";display:block!important;position:absolute;z-index:41;top:100%;left:-10px;right:-10px;height:34px;background:transparent;pointer-events:auto}
+}
