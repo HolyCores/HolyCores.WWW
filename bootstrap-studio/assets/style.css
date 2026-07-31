@@ -207,3 +207,8 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
 .chip-family-grid article>span,.chip-family-grid article>h3,.chip-family-grid article>b,.chip-family-grid article>p,.chip-family-grid article>ul{margin-left:30px;margin-right:30px}
 .chip-family-grid article>h3{margin-top:auto}
 @media(max-width:900px){.chip-family-grid article>figure{height:auto;aspect-ratio:4/3}}
+
+/* HELIOS LOGO, MENU SHAPES, LIGHT-SECTION CONTRAST */
+.chip-portfolio .chip-section-head>p,.chip-software .chip-section-head>p{color:#617900}
+.mega-product:nth-child(3)>i{border-radius:0!important;clip-path:polygon(18% 0,100% 0,82% 100%,0 100%);transform:none!important}
+.mega-product:nth-child(4)>i:before{content:"";position:absolute;inset:14px;background:url("brand/logo-1.0.svg") center/contain no-repeat;transform:none;box-shadow:none;filter:drop-shadow(0 0 8px #d8ff3655)}
