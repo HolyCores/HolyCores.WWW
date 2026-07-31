@@ -246,3 +246,12 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
   .nav-products:hover .nav-products-menu,.nav-products:focus-within .nav-products-menu,.nav-software:hover .nav-software-menu,.nav-software:focus-within .nav-software-menu,.nav-solutions:hover .nav-solutions-menu,.nav-solutions:focus-within .nav-solutions-menu{pointer-events:auto;opacity:1;visibility:visible;transform:none;transition-delay:0s!important}
   .nav-products-menu:before,.nav-software-menu:before,.nav-solutions-menu:before{top:-38px!important;height:38px!important}
 }
+
+/* IMMEDIATE MEGA MENU SWITCHING */
+.nav-products-trigger>span,.nav-software-trigger>span,.nav-solutions-trigger>span{display:none!important}
+@media(min-width:901px){
+  .nav-products,.nav-software,.nav-solutions{padding:0!important;margin:0!important}
+  .nav-products:after,.nav-software:after,.nav-solutions:after,.nav-products-menu:before,.nav-software-menu:before,.nav-solutions-menu:before{display:none!important}
+  .nav-products-menu,.nav-software-menu,.nav-solutions-menu{top:76px!important;transition:opacity .1s ease,transform .1s ease,visibility 0s linear .1s!important}
+  .nav-products:hover .nav-products-menu,.nav-products:focus-within .nav-products-menu,.nav-software:hover .nav-software-menu,.nav-software:focus-within .nav-software-menu,.nav-solutions:hover .nav-solutions-menu,.nav-solutions:focus-within .nav-solutions-menu{transition-delay:0s!important}
+}
