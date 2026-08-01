@@ -284,8 +284,8 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
 @media(min-width:1051px){.llm-page h1,.llm-page .llm-opening h2,.llm-page .llm-section-head h2,.llm-page .llm-validation h2,.llm-page .llm-faq h2,.llm-page .llm-cta h2{white-space:nowrap}}
 
 /* Natural H2 wrapping + shared LLM subnavigation */
-+h2{white-space:normal!important}
-+.studio-subnav.llm-subnav{position:sticky;top:76px;z-index:19;min-height:58px;padding:0 3.4vw;background:#0a0a0bf2;backdrop-filter:blur(16px);border-top:1px solid #ffffff17;border-bottom:1px solid #ffffff24;display:flex;align-items:center;justify-content:center;gap:30px;overflow-x:auto;white-space:nowrap}
-+.studio-subnav.llm-subnav a{font-size:12px;color:#aaa;font-weight:400}
-+.studio-subnav.llm-subnav a:hover{color:#fff}
-+@media(max-width:900px){.studio-subnav.llm-subnav{justify-content:flex-start;gap:22px}}
+h2{white-space:normal!important}
+.studio-subnav.llm-subnav{position:sticky;top:76px;z-index:19;min-height:58px;padding:0 3.4vw;background:#0a0a0bf2;backdrop-filter:blur(16px);border-top:1px solid #ffffff17;border-bottom:1px solid #ffffff24;display:flex;align-items:center;justify-content:center;gap:30px;overflow-x:auto;white-space:nowrap}
+.studio-subnav.llm-subnav a{font-size:12px;color:#aaa;font-weight:400}
+.studio-subnav.llm-subnav a:hover{color:#fff}
+@media(max-width:900px){.studio-subnav.llm-subnav{justify-content:flex-start;gap:22px}}
