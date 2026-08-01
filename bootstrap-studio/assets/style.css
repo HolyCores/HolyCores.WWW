@@ -281,7 +281,7 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
 .mega-product[href$="spark.html"]>i{border:1px solid #ffffff50!important;border-radius:18px!important;clip-path:none!important;transform:none!important;background:repeating-linear-gradient(90deg,#d8ff361c 0 8px,transparent 8px 16px)!important;box-shadow:14px 14px 0 #ffffff08!important}.mega-product[href$="spark.html"]>i:before,.mega-product[href$="spark.html"]>i:after{content:none!important}
 .mega-product[href$="nova.html"]>i{border:1px solid #ffffff50!important;border-radius:50%!important;clip-path:none!important;transform:rotate(45deg)!important;background:radial-gradient(circle,#a28bff66 0 18%,transparent 19% 35%,#a28bff22 36%)!important;box-shadow:14px 14px 0 #ffffff08!important}.mega-product[href$="nova.html"]>i:before,.mega-product[href$="nova.html"]>i:after{content:none!important}
 .mega-product[href$="galaxy.html"]>i{border:1px solid #ffffff50!important;border-radius:0!important;clip-path:none!important;transform:rotate(45deg)!important;background:linear-gradient(135deg,#ffffff0c,#d8ff3622)!important;box-shadow:14px 14px 0 #ffffff08!important}.mega-product[href$="galaxy.html"]>i:before,.mega-product[href$="galaxy.html"]>i:after{content:none!important}
-@media(min-width:1051px){.llm-page h1,.llm-page .llm-opening h2,.llm-page .llm-section-head h2,.llm-page .llm-validation h2,.llm-page .llm-faq h2,.llm-page .llm-cta h2{white-space:nowrap}}
+@media(min-width:1051px){.llm-page h1{white-space:nowrap}}
 
 /* Natural H2 wrapping + shared LLM subnavigation */
 h2{white-space:normal!important}
