@@ -266,6 +266,9 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
 .product-card.ice .cube:after{left:-46px;bottom:100%;width:302px;height:39px;transform:none;clip-path:polygon(15% 100%,100% 100%,82% 0,0 0);border:0;border-radius:0;background:linear-gradient(160deg,#343b3d,#15191a 68%);box-shadow:inset 0 -8px 12px #0005}
 .product-card.ice .cube span{transform:none;font-size:24px;color:#66cfd0;text-shadow:0 0 16px #66cfd099}
 
+/* AETHER HOME MATRIX — REMOVE THE TOP BLACK PLATE */
+.product-card.ice .cube:after{display:none}
+
 /* MOBILE NAVIGATION */
 .mobile-nav{display:none}
 @media(max-width:900px){
