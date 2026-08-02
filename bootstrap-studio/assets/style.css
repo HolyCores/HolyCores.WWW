@@ -279,6 +279,12 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
 .product-card.ice .cube:before{left:-48px;width:48px;height:99px;top:6px}
 .product-card.ice .cube span{font-size:20px}
 
+/* HOME MATRIX — UNIFY CONCEPT SHADOW DEPTH WITH NOVA */
+.product-card.silicon .bare-die{box-shadow:18px 24px 0 #0004,0 0 0 10px #d8ff3618}
+.product-card.lime .mini-chip{box-shadow:22px 22px 0 #0004}
+.product-card.violet .rack{box-shadow:15px 35px 0 #0004}
+.product-card.ice .cube{box-shadow:22px 25px 20px #0004,inset 0 0 0 12px #080a0bbd,inset 0 0 0 13px #66cfd040}
+
 /* MOBILE NAVIGATION */
 .mobile-nav{display:none}
 @media(max-width:900px){
