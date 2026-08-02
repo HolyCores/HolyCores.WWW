@@ -238,6 +238,12 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
 .product-card.ice .cube:after{left:0;right:0;bottom:-31px;height:30px;transform-origin:top;transform:rotateX(-62deg);border-radius:0 0 7px 7px;background:radial-gradient(circle at 86% 50%,#d8ff36 0 2px,transparent 3px),radial-gradient(circle at 92% 50%,#66cfd0 0 2px,transparent 3px),linear-gradient(90deg,#090b0c,#242a2c 55%,#0c0e0f);border:1px solid #ffffff24;box-shadow:0 13px 15px #1114}
 .product-card.ice .cube span{transform:translateZ(12px);margin-top:0;font-size:18px}
 
+/* HELIOS HOME MATRIX — HALF-SCALE CONCEPT DIE */
+.product-card.silicon .bare-die{width:95px;height:78px;box-shadow:9px 12px 0 #0002,0 0 0 5px #d8ff3618}
+.product-card.silicon .bare-die:before{inset:6px}
+.product-card.silicon .bare-die:after{inset:-4px;background:repeating-linear-gradient(90deg,#bfa96e 0 1px,transparent 1px 6px)}
+.product-card.silicon .bare-die span{font-size:27px}
+
 /* MOBILE NAVIGATION */
 .mobile-nav{display:none}
 @media(max-width:900px){
