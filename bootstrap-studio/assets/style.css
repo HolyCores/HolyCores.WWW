@@ -250,6 +250,12 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
 .product-card.ice .cube:after{content:"";position:absolute;inset:auto;left:-1px;bottom:100%;width:142px;height:56px;border:1px solid #ffffff32;border-radius:3px 3px 0 0;transform-origin:center bottom;transform:rotateX(90deg);background:linear-gradient(135deg,#3b4446,#1b2021 70%);box-shadow:inset 0 0 0 12px #10141566}
 .product-card.ice .cube span{position:relative;z-index:2;transform:translateZ(2px);margin:0;color:#66cfd0;font:700 22px "Geist Mono";letter-spacing:.12em;text-shadow:0 0 14px #66cfd088}
 
+/* AETHER HOME MATRIX — 180% A8-STYLE DESKTOP TOWER CUBE */
+.product-card.ice .cube{width:256px;height:256px;top:42%;transform:translate(-50%,-50%) perspective(920px) rotateX(-7deg) rotateY(-27deg);border-radius:6px;background:linear-gradient(90deg,transparent 0 13%,#66cfd0 13% 14%,transparent 14% 86%,#66cfd0 86% 87%,transparent 87%),linear-gradient(135deg,transparent 0 34%,#66cfd033 35% 36%,transparent 37% 64%,#66cfd029 65% 66%,transparent 67%),linear-gradient(145deg,#24292b,#0b0e0f 72%);box-shadow:42px 46px 30px #1113,inset 0 0 0 14px #0a0c0dbd,inset 0 0 35px #66cfd01f}
+.product-card.ice .cube:before{left:100%;top:-1px;width:82px;height:256px;border-radius:0 6px 6px 0;background:repeating-linear-gradient(135deg,#252b2d 0 5px,#0b0e0f 5px 10px);box-shadow:inset 0 0 34px #0008,inset 0 0 0 10px #1116}
+.product-card.ice .cube:after{left:-1px;bottom:100%;width:256px;height:82px;border-radius:6px 6px 0 0;background:repeating-linear-gradient(45deg,#31383a 0 7px,#171b1c 7px 13px);box-shadow:inset 0 0 0 14px #10141577}
+.product-card.ice .cube span{transform:translateZ(5px);font-size:28px;color:#66cfd0;text-shadow:0 0 18px #66cfd0aa}
+
 /* MOBILE NAVIGATION */
 .mobile-nav{display:none}
 @media(max-width:900px){
