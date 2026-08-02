@@ -269,6 +269,16 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
 /* AETHER HOME MATRIX — REMOVE THE TOP BLACK PLATE */
 .product-card.ice .cube:after{display:none}
 
+/* HOME MATRIX — NORMALIZE ALL CONCEPT VISUALS TO THE SPARK FOOTPRINT */
+.product-card.silicon .bare-die{width:190px;height:155px;left:50%;top:43%;box-shadow:18px 24px 0 #0002,0 0 0 10px #d8ff3618}
+.product-card.silicon .bare-die:before{inset:11px}
+.product-card.silicon .bare-die:after{inset:-8px;background:repeating-linear-gradient(90deg,#bfa96e 0 2px,transparent 2px 11px)}
+.product-card.silicon .bare-die span{font-size:54px}
+.product-card.violet .rack{width:210px;left:50%;right:auto;top:43%;height:160px;transform:translate(-50%,-50%) perspective(700px) rotateX(55deg) rotateZ(-9deg)}
+.product-card.ice .cube{width:180px;height:105px;left:50%;top:43%;transform:translate(-38%,-50%) perspective(900px) rotateY(-4deg)}
+.product-card.ice .cube:before{left:-48px;width:48px;height:99px;top:6px}
+.product-card.ice .cube span{font-size:20px}
+
 /* MOBILE NAVIGATION */
 .mobile-nav{display:none}
 @media(max-width:900px){
