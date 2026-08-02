@@ -292,6 +292,10 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
 /* AETHER: USE THE EXACT SAME HARD OUTER SHADOW AS NOVA */
 .product-card.ice .cube{box-shadow:15px 35px 0 #0004,inset 0 0 0 12px #080a0bbd,inset 0 0 0 13px #66cfd040}
 
+/* HELIOS MEGA-MENU ICON — ATOMIC H MARK, NO PSEUDO-ELEMENT ASSEMBLY */
+.mega-products .mega-product:nth-child(1)>i{background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%23d8ff36' d='M7 5l12 5v10l-5 4 5 4v10L7 43V5zm34 0L29 10v10l5 4-5 4v10l12 5V5z'/%3E%3Crect x='20' y='21.5' width='8' height='5' rx='1' fill='%23d8ff36'/%3E%3C/svg%3E") center/38px 38px no-repeat,repeating-linear-gradient(0deg,#d8ff3615 0 1px,transparent 1px 9px),repeating-linear-gradient(90deg,#75cfff12 0 1px,transparent 1px 9px),#101315!important}
+.mega-products .mega-product:nth-child(1)>i:before,.mega-products .mega-product:nth-child(1)>i:after{display:none!important}
+
 /* MOBILE NAVIGATION */
 .mobile-nav{display:none}
 @media(max-width:900px){
