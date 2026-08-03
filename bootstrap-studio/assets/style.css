@@ -308,6 +308,11 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
 .studio-products .origin-product-entry:hover img{transform:scale(1.025)}
 @media(max-width:900px){.studio-products .origin-product-entry{padding:85px 24px;grid-template-columns:1fr;gap:2px}.studio-products .origin-product-entry>div{min-height:330px}.studio-products .origin-product-entry figure{min-height:0}.studio-products .origin-product-entry img{padding:24px}}
 
+/* HOME — REQUIRED SINGLE-LINE HEADINGS AND CENTERED MISSION COPY */
+.home-insight .studio-insight-head h2,.home-system>div:first-child h2,.home-workloads .studio-section-title h2{max-width:none;white-space:nowrap;font-size:clamp(24px,4.5vw,70px)}
+.statement-foot{position:relative;min-height:78px;justify-content:flex-end}
+.statement-foot>p{position:absolute;left:50%;top:28px;transform:translateX(-50%);width:max-content;max-width:none;margin:0;text-align:center;white-space:nowrap;font-size:clamp(9px,1.1vw,16px)}
+
 /* MOBILE NAVIGATION */
 .mobile-nav{display:none}
 @media(max-width:900px){
