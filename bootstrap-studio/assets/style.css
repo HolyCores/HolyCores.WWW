@@ -208,6 +208,14 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
 .chip-family-grid article>h3{margin-top:auto}
 @media(max-width:900px){.chip-family-grid article>figure{height:auto;aspect-ratio:4/3}}
 
+/* HELIOS cards follow the shared HOLYCORES product-family presentation. */
+.chip-family-grid{gap:1px;background:#deded8}
+.chip-family-grid article{background:#f6f5f0;padding-bottom:30px}
+.chip-family-grid article>figure{position:relative;height:340px;margin-bottom:28px;background:#f6f5f0}
+.chip-family-grid article>figure:before{content:"";position:absolute;z-index:2;top:20px;left:20px;width:48px;height:48px;background:#090a0b url("brand/logo-1.0.svg") center/29px auto no-repeat;box-shadow:0 8px 18px #0002}
+.chip-family-grid article>figure img{object-fit:contain;padding:38px 30px 20px;background:#f6f5f0}
+@media(max-width:900px){.chip-family-grid article>figure{height:auto;aspect-ratio:4/3}.chip-family-grid article>figure:before{top:16px;left:16px;width:44px;height:44px;background-size:26px}.chip-family-grid article>figure img{padding:34px 20px 18px}}
+
 /* HELIOS LOGO, MENU SHAPES, LIGHT-SECTION CONTRAST */
 .chip-portfolio .chip-section-head>div>p,.chip-software .chip-section-head>div>p{color:#617900}
 .mega-product:nth-child(4)>i:before{content:"";position:absolute;inset:14px;background:url("brand/logo-1.0.svg") center/contain no-repeat;transform:none;box-shadow:none;filter:drop-shadow(0 0 8px #d8ff3655)}
