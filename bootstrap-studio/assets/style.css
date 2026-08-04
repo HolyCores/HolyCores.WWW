@@ -216,6 +216,13 @@ html[lang="zh-CN"] .medical-hero h1{font-size:clamp(48px,3.8vw,72px);line-height
 .chip-family-grid article>figure img{object-fit:contain;padding:38px 30px 20px;background:#f6f5f0}
 @media(max-width:900px){.chip-family-grid article>figure{height:auto;aspect-ratio:4/3}.chip-family-grid article>figure:before{top:16px;left:16px;width:44px;height:44px;background-size:26px}.chip-family-grid article>figure img{padding:34px 20px 18px}}
 
+/* HELIOS manifesto: centered hierarchy with copy below the headline. */
+.chip-manifesto{display:flex;flex-direction:column;align-items:center;gap:34px;text-align:center}
+.chip-manifesto>div{width:100%}
+.chip-manifesto h2{margin:35px auto 0;white-space:nowrap}
+.chip-manifesto>p{width:min(100%,1080px);max-width:1080px;margin:0 auto;text-align:center}
+@media(max-width:900px){.chip-manifesto h2{white-space:normal}}
+
 /* HELIOS LOGO, MENU SHAPES, LIGHT-SECTION CONTRAST */
 .chip-portfolio .chip-section-head>div>p,.chip-software .chip-section-head>div>p{color:#617900}
 .mega-product:nth-child(4)>i:before{content:"";position:absolute;inset:14px;background:url("brand/logo-1.0.svg") center/contain no-repeat;transform:none;box-shadow:none;filter:drop-shadow(0 0 8px #d8ff3655)}
