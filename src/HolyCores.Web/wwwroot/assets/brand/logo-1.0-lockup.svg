@@ -1,0 +1,10 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="HOLYCORES">
+  <g transform="translate(40 34) scale(5.4) translate(-6 -2)">
+    <g transform="translate(6 4) skewX(-11)" fill="#d8ff36" shape-rendering="geometricPrecision">
+      <rect x="7" y="0" width="7" height="27"/>
+      <rect x="17" y="5" width="7" height="27"/>
+      <rect x="27" y="0" width="7" height="27"/>
+    </g>
+  </g>
+  <text x="290" y="174" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="700" letter-spacing="8">HOLYCORES</text>
+</svg>

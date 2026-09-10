@@ -1,0 +1,145 @@
+.chat-page > .chat-subnav,
+.chat-page > .chat-capabilities,
+.chat-page > .chat-use-cases,
+.chat-page > .chat-workflow,
+.chat-page > .chat-trust,
+.chat-page > .chat-faq,
+.chat-page > .chat-cta {
+  display: none;
+}
+
+.chat-page > .ask-guest { display: none; }
+.chat-page > .chat-hero { display: grid; }
+.chat-page > .nav .brand strong,
+.chat-page > footer .brand strong { color: #fff; }
+.chat-latest-design { margin: 0; align-self: center; }
+.chat-latest-design img { width: 100%; height: auto; display: block; border: 1px solid #3e443f; background: #fbfbf8; box-shadow: 0 40px 110px #0007; }
+.chat-latest-design figcaption { padding: 14px 2px 0; display: flex; justify-content: space-between; gap: 20px; color: #919a92; font: 10px "Geist Mono", monospace; letter-spacing: .08em; }
+.chat-latest-design figcaption b { color: var(--ask-acid); }
+
+.ask-guest {
+  --ask-acid: #b7f000;
+  --ask-ink: #090b09;
+  --ask-muted: #737970;
+  min-height: 100vh;
+  padding-top: 76px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 280px minmax(0, 1fr);
+  background: #fbfbf8;
+  color: var(--ask-ink);
+  border-bottom: 1px solid #dedfd9;
+}
+
+.ask-guest * { box-sizing: border-box; }
+.ask-guest a { color: inherit; text-decoration: none; }
+
+.ask-guest-sidebar {
+  min-height: calc(100vh - 76px);
+  padding: 42px 28px 34px;
+  display: flex;
+  flex-direction: column;
+  border-right: 1px solid #dedfd9;
+  background: #f7f7f3;
+}
+
+.ask-product-name {
+  margin-bottom: 52px;
+  font-size: 22px;
+  font-weight: 760;
+  letter-spacing: -.04em;
+}
+
+.ask-guest-sidebar nav { display: grid; gap: 8px; }
+.ask-guest-sidebar nav a {
+  min-height: 54px;
+  padding: 12px 10px;
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  transition: background .18s ease, border-color .18s ease;
+}
+.ask-guest-sidebar nav a:hover { background: #fff; border-color: #d7d9d2; }
+.ask-guest-sidebar nav b { font-size: 14px; font-weight: 620; }
+.ask-topic-icon {
+  width: 29px;
+  height: 29px;
+  display: grid;
+  place-items: center;
+  border: 1px solid #bfc3ba;
+  border-radius: 50%;
+  color: #575d55;
+  font: 700 9px "Geist Mono", monospace;
+}
+
+.ask-auth-stack { margin-top: auto; display: grid; gap: 14px; text-align: center; }
+.ask-login {
+  min-height: 58px;
+  display: grid;
+  place-items: center;
+  border-radius: 7px;
+  background: #080908;
+  color: #fff !important;
+  font-size: 15px;
+  font-weight: 700;
+}
+.ask-register { justify-self: center; padding-bottom: 3px; border-bottom: 1px solid currentColor; font-size: 13px; }
+
+.ask-guest-main { position: relative; min-width: 0; padding: 42px clamp(38px, 6vw, 104px) 56px; }
+.ask-top-actions { position: absolute; top: 28px; right: 36px; z-index: 2; display: flex; align-items: center; gap: 24px; }
+.ask-top-actions a:first-child { padding-bottom: 4px; border-bottom: 1px solid currentColor; font-size: 13px; }
+.ask-top-actions a:last-child { padding: 13px 27px; border-radius: 7px; background: #080908; color: #fff; font-size: 14px; font-weight: 700; }
+
+.ask-intro { width: min(950px, 100%); margin: 54px auto 0; text-align: center; }
+.ask-eyebrow { margin: 0 0 24px; color: var(--ask-acid); font: 700 14px "Geist Mono", monospace; letter-spacing: -.02em; }
+.ask-eyebrow span { color: #30342f; font-family: inherit; font-weight: 500; }
+.ask-intro h1 { margin: 0; font-size: clamp(42px, 4.1vw, 66px); line-height: 1.08; letter-spacing: -.065em; }
+.ask-lead { margin: 22px auto 34px; color: #686e66; font-size: 17px; line-height: 1.7; }
+
+.ask-composer {
+  position: relative;
+  min-height: 155px;
+  padding: 25px 68px 55px 28px;
+  border: 1px solid var(--ask-acid);
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 16px 45px #1018100a;
+  text-align: left;
+}
+.ask-composer textarea { width: 100%; min-height: 55px; resize: none; border: 0; outline: 0; background: transparent; color: #151815; font: inherit; font-size: 17px; line-height: 1.6; }
+.ask-composer textarea::placeholder { color: #858b83; }
+.ask-attach { position: absolute; left: 27px; bottom: 21px; width: 31px; height: 31px; display: grid; place-items: center; border: 1px solid #c5c9c1; border-radius: 50%; font-size: 21px; font-weight: 300; }
+.ask-composer button { position: absolute; right: 22px; bottom: 19px; width: 43px; height: 43px; border: 0; border-radius: 50%; background: var(--ask-acid); color: #080908; cursor: pointer; font-size: 24px; }
+.ask-login-hint { margin: 14px 0 30px; color: #7f857d; font-size: 12px; }
+
+.ask-topic-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; text-align: left; }
+.ask-topic-grid > a { min-height: 124px; padding: 22px 24px; display: flex; gap: 18px; border: 1px solid #d9dcd5; border-radius: 12px; background: #fff; transition: border-color .18s ease, transform .18s ease; }
+.ask-topic-grid > a:hover { border-color: #aeb4a8; transform: translateY(-2px); }
+.ask-topic-grid > a > span { flex: 0 0 auto; color: #76806f; font: 700 10px "Geist Mono", monospace; }
+.ask-topic-grid h2 { margin: -3px 0 8px; font-size: 19px; line-height: 1.25; letter-spacing: -.03em; }
+.ask-topic-grid p { margin: 0; color: #747a72; font-size: 13px; line-height: 1.65; }
+.ask-safety { margin: 31px 0 0; color: #777d75; font-size: 12px; }
+.sr-only { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+@media (max-width: 980px) {
+  .ask-guest { grid-template-columns: 220px minmax(0,1fr); }
+  .ask-guest-sidebar { padding-inline: 20px; }
+  .ask-guest-main { padding-inline: 30px; }
+  .ask-intro { margin-top: 72px; }
+}
+
+@media (max-width: 720px) {
+  .ask-guest { display: block; min-height: auto; }
+  .ask-guest-sidebar { min-height: auto; padding: 25px 20px; border-right: 0; border-bottom: 1px solid #dedfd9; }
+  .ask-product-name { margin: 0; }
+  .ask-guest-sidebar nav, .ask-auth-stack { display: none; }
+  .ask-guest-main { padding: 98px 20px 46px; }
+  .ask-top-actions { top: 26px; right: 20px; }
+  .ask-intro { margin-top: 0; }
+  .ask-intro h1 { font-size: 39px; }
+  .ask-lead { font-size: 15px; }
+  .ask-composer { min-height: 142px; }
+  .ask-topic-grid { grid-template-columns: 1fr; }
+}
