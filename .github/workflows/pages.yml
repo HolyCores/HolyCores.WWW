@@ -1,43 +1,24 @@
-name: Build and publish HolyCores website
-
+name: Publish HolyCores to GitHub Pages
 on:
-  push:
-    branches: [main]
-    paths: ['src/HolyCores.Web/**', 'scripts/**', 'global.json', 'HolyCores.slnx', '.github/workflows/pages.yml']
   workflow_dispatch:
-
 permissions:
   contents: read
-
 concurrency:
   group: holycores-pages
   cancel-in-progress: false
-
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-dotnet@v4
-        with:
-          dotnet-version: '10.0.x'
       - uses: actions/setup-python@v5
         with:
           python-version: '3.x'
-      - name: Validate and export static website
-        shell: pwsh
-        run: ./scripts/Publish-Static.ps1
-      - uses: actions/upload-artifact@v4
-        with:
-          name: holycores-pages
-          path: artifacts/pages/
-          include-hidden-files: true
+      - run: python scripts/build-static.py
       - uses: actions/upload-pages-artifact@v3
-        if: vars.PAGES_ENABLED == 'true'
         with:
-          path: artifacts/pages
+          path: dist
   deploy:
-    if: vars.PAGES_ENABLED == 'true'
     needs: build
     runs-on: ubuntu-latest
     permissions:
