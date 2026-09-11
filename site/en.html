@@ -10,6 +10,9 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;700&family=Geist:wght@400;560;590;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/style.css?v=20260911-nav2">
+  <link rel="stylesheet" href="assets/footer.css?v=20260911-footer-design">
+<link rel="stylesheet" href="assets/home-levitation.css?v=precision1">
+<script defer src="assets/sand-to-chip.js?v=2"></script><script defer src="assets/home-precision.js?v=process2"></script>
 </head>
 <body>
 <main>
@@ -25,7 +28,7 @@
     <a class="nav-cta" href="en-contact.html">Talk to us <span aria-hidden="true">↗</span></a>
   <details class="mobile-nav"><summary aria-label="Open menu"><span></span><span></span><span></span></summary><div class="mobile-nav-panel"><small>PRODUCTS</small><a href="en-chips.html">HELIOS</a><a href="en-spark.html">SPARK</a><a href="en-nova.html">NOVA</a><a href="en-galaxy.html">AETHER</a><hr><a href="en-software.html">Software</a><a class="nav-lab" href="en-lab.html">Laboratory</a><a href="en-solutions.html">Solutions</a><a href="en-chat.html">Ask Holycores</a><a href="en-developers.html">Developers</a><a href="en-company.html">Company</a><a href="en-careers.html">Careers</a><a href="en-contact.html">Contact</a><div><a href="index.html">中文</a></div></div></details></header>
 
-  <section class="hero" id="top">
+  <section class="hero hero-levitation hero-precision" id="top">
     <div class="hero-copy">
       <p class="eyebrow"><span></span> BORN FOR INTELLIGENCE</p>
       <h1>Compute,<br>Born Free.</h1>
@@ -35,34 +38,7 @@
         <a class="button ghost" href="#architecture">Our architecture <span>→</span></a>
       </div>
     </div>
-    <div class="core-visual nova-motion-stage" aria-label="Animated HC NOVA N200A dataflow AI accelerator">
-      <div class="nova-orbit nova-orbit-a" aria-hidden="true"></div>
-      <div class="nova-orbit nova-orbit-b" aria-hidden="true"></div>
-      <div class="nova-pulse-field" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
-      <div class="nova-chip-scene">
-        <div class="nova-chip-shadow" aria-hidden="true"></div>
-        <div class="nova-chip-package">
-          <div class="nova-chip-edge" aria-hidden="true"></div>
-          <div class="nova-chip-top">
-            <div class="nova-circuit circuit-a" aria-hidden="true"></div>
-            <div class="nova-circuit circuit-b" aria-hidden="true"></div>
-            <div class="nova-circuit circuit-c" aria-hidden="true"></div>
-            <div class="nova-die">
-              <img src="assets/brand/logo-1.0.svg" alt="">
-              <b>HC NOVA</b>
-              <strong>N200A</strong>
-              <span>DATAFLOW AI ACCELERATOR</span>
-              <div class="nova-core-matrix" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
-            </div>
-            <div class="nova-pin-field" aria-hidden="true"></div>
-          </div>
-        </div>
-      </div>
-      <div class="nova-callout nova-callout-a"><b>HOLYFLOW</b><span>COMPILER READY</span></div>
-      <div class="nova-callout nova-callout-b"><b>HC-FABRIC</b><span>SCALE-OUT INTERCONNECT</span></div>
-      <div class="nova-callout nova-callout-c"><b>N200A</b><span>DATACENTER ACCELERATOR</span></div>
-      <div class="nova-scroll-cue" aria-hidden="true"><span></span>EXPLORE NOVA</div>
-    </div>
+    <div class="levitation-visual"><canvas id="levitation-canvas" role="img" aria-label="Precision metal chip with pulsing green compute cores"></canvas><button type="button" class="levitation-toggle" aria-pressed="false">Pause animation Ⅱ</button></div>
     <div class="hero-index">01 — 05</div>
   </section>
 
@@ -192,12 +168,17 @@
     <a href="mailto:hello@holycores.com">hello@holycores.com <span aria-hidden="true">↗</span></a>
   </section>
 
-  <footer>
-    <a class="brand footer-brand" href="#top">
-      <img class="brand-logo" src="assets/brand/logo-1.0.svg" alt=""><strong>HOLYCORES</strong>
-    </a>
-    <p>Open architecture. Extreme performance. Limitless intelligence.</p>
-    <div><span>© 2026 HOLYCORES</span><a href="#top">Back to top ↑</a></div>
+  <footer class="hc-footer" id="site-footer">
+    <div class="hc-footer-main">
+      <div class="hc-footer-about">
+        <a class="brand footer-brand" href="en.html"><img class="brand-logo" src="assets/brand/logo-1.0.svg" alt=""><strong>HOLYCORES</strong></a>
+        <p class="hc-footer-statement">Open architecture.<br>Intelligence without limits.</p>
+        <p class="hc-footer-description">Connecting computing hardware, software and AI applications.</p>
+      </div>
+      <nav class="hc-footer-col" aria-label="Computing platforms"><h3>Computing platforms</h3><a href="en-chips.html">HELIOS</a><a href="en-spark.html">SPARK</a><a href="en-nova.html">NOVA</a><a href="en-galaxy.html">AETHER</a></nav><nav class="hc-footer-col" aria-label="Solutions"><h3>Solutions</h3><a href="en-solutions.html">AI solutions</a><a href="en-rag-agents.html">RAG & healthcare agents</a><a href="en-llm-inference.html">LLM inference</a><a href="en-software.html">HOLYFLOW</a></nav><nav class="hc-footer-col" aria-label="Explore HOLYCORES"><h3>Explore HOLYCORES</h3><a href="en-company.html">About us</a><a href="en-lab.html">Laboratory</a><a href="en-developers.html">Developers</a><a href="en-careers.html">Careers</a></nav>
+      <div class="hc-footer-col hc-footer-contact"><h3>Connect with us</h3><a class="hc-footer-email" href="mailto:hello@holycores.com">hello@holycores.com</a><p>Discuss your next project<br>with the HOLYCORES team.</p><a class="hc-footer-button" href="en-contact.html">Start a conversation <span aria-hidden="true">↗</span></a></div>
+    </div>
+    <div class="hc-footer-bottom"><span>© 2026 神核（上海）人工智能科技有限公司, All Right Reserved.</span><a href="index.html" lang="zh-CN">Chinese</a></div>
   </footer>
 </main>
 </body>

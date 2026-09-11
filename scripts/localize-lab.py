@@ -21,6 +21,8 @@ page = page.replace('Interactive demonstrations are in Chinese.', 'Explore both 
 page = re.sub(r'assets/quantum-optics(?:\.en)?\.js\?v=[^"\s]+',
               'assets/quantum-optics.en.js?v=20260911-taller-paths', page)
 for name, text in [('English page', page), ('English renderer', renderer)]:
+    # The shared legal copyright intentionally retains the Chinese company name.
+    text = text.replace('© 2026 神核（上海）人工智能科技有限公司, All Right Reserved.', '')
     remaining = re.findall(r'[^<>\n]{0,40}[\u4e00-\u9fff]+[^<>\n]{0,70}', text)
     if remaining:
         raise ValueError(f'{name}: untranslated text: {remaining}')
