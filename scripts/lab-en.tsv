@@ -1,0 +1,191 @@
+一枚芯片，构建光镊阵列。	One chip. An array of optical tweezers.
+不是凭空创造，而是能量的转化。	Energy conversion, not creation from nothing.
+也可聚焦实验图后使用方向键微调。	Focus the diagram and use arrow keys for fine adjustments.
+了解了	Got it
+亚波长纳米结构阵列	Subwavelength nanostructure array
+亚波长结构 / 局部相位延迟 / 输出波前	Subwavelength structures / Local phase delay / Output wavefront
+从光场到光阱	From light fields to optical traps
+传统光路实验	Conventional optics experiment
+位置滑块支持键盘与触摸操作。	Position sliders support keyboard and touch input.
+保持当前位置 · 连续稳定 2 秒后锁定	Hold this position for 2 seconds to lock
+光子对，从这里产生。	Photon pairs begin here.
+光斑表示目标光阱位置，并不代表每个光阱已装载一个原子。实际原子捕获还需要合适的失谐、冷却与真空条件。将原子用作量子比特还需要初始化、相干控制及读出，本演示不表示量子门或纠缠已经实现。	Spots indicate target trap positions, not occupied atom sites. Trapping requires suitable detuning, cooling and vacuum conditions. Using atoms as qubits also requires initialization, coherent control and readout. This demonstration does not implement quantum gates or entanglement.
+光源已关闭 · 增加入射光强以继续实验	Light source off. Increase input intensity to continue.
+光源关闭	Source off
+光路总览	Optical layout
+光镊阵列形成	Optical trap formation
+光阱阵列与量子比特	Optical trap arrays and qubits
+入射光场	Incident field
+全屏演示	Fullscreen
+关闭	Close
+切换代表更换预制芯片，不是在线改写芯片。	Switching selects a different prefabricated chip, not live reprogramming.
+单步演示	Step
+可拖动	Drag to move
+可调激光器 / 超表面相位整形 / 光阱阵列	Tunable laser / Metasurface shaping / Trap array
+可调激光器	Tunable laser
+器件标注	Component labels
+在焦平面构建光阱	Create traps in the focal plane
+在非线性晶体中，少量泵浦光子会转化为信号光子与闲置光子，满足能量守恒与相位匹配。这里演示的是光子对产生；成对产生本身不等于已经制备出纠缠态。	In a nonlinear crystal, a small fraction of pump photons convert into signal and idler photons under energy conservation and phase matching. Pair production alone does not establish entanglement.
+垂直位置	Vertical position
+实验原理	Principles
+实验控制	Experiment controls
+实验视图	Experiment view
+对准度、光强与锁定阈值均为交互教学模型，不代表真实器件性能。	Alignment, intensity and locking thresholds are illustrative and do not specify actual device performance.
+对准目标	Alignment target
+对准度	Alignment
+尺寸与相位映射仅为示意	Dimensions and phase mapping are illustrative
+局部透射幅度 t 与相位 φ 共同塑造输出光场。	Local transmission amplitude t and phase φ shape the output field.
+已产生光子对	Photon pairs generated
+已锁定	Locked
+待对准	Not aligned
+微结构图为示意，不对应可制造的纳米结构版图。	The microstructure view is illustrative, not a fabrication layout.
+慢速观察	Slow motion
+拖动芯片进入绿色目标框，保持对准 2 秒，观察光阱阵列形成。	Drag the chip into the green target and hold for 2 seconds to form the trap array.
+拖动芯片，对准绿色目标框	Drag the chip into the green target
+探索微观世界的光与量子	Explore light and quantum phenomena
+提供照明光场	Supply the incident field
+教学模型 · 产生概率与探测效率已简化，动画事件率不对应真实实验值。	Illustrative model: simplified generation and detection rates, not measured event rates.
+整形光场	Shaped field
+方形阵列	square array
+晶体处于最佳匹配位置	Crystal is phase matched
+暂停演示	Pause
+暂停	Pause
+概念模型 · 非等比例	Conceptual model · Not to scale
+正在自动对准…	Aligning automatically…
+水平位置	Horizontal position
+泵浦光子能量 = 信号光子能量 + 闲置光子能量	Pump energy = Signal energy + Idler energy
+泵浦功率	Pump power
+泵浦波长	Pump wavelength
+演示已暂停 · 点击“继续”恢复动画与计时	Paused. Select Resume to continue the animation and timer.
+演示运行中	Running
+激光入射	Laser input
+激光提供入射光场。这个演示调节的是相对光强，未指定具体波长、原子种类和激光功率。真实光镊的形成依赖失谐、偏振、光束质量及原子极化率等条件。	The laser supplies the incident field. This demonstration adjusts relative intensity without specifying wavelength, atom species or absolute power. Real optical trapping also depends on detuning, polarization, beam quality and atomic polarizability.
+点击实验台上的器件，查看它的作用。	Select a component to learn what it does.
+点环形阵列	-point ring array
+焦平面 · 光阱阵列	Focal plane · Trap array
+目标位置	Target position
+目标光阱数	Target trap count
+相位匹配角偏差	Phase-matching angle offset
+相位匹配	Phase matching
+相位工程	Phase engineering
+相对偏移 · 中心位置为 0	Relative offset · Center = 0
+相对入射光强	Relative input intensity
+相对焦点光强	Relative focal intensity
+研究参考：真空内超表面光阱阵列	Reference: in-vacuum metasurface trap arrays
+稳定中	Stabilizing
+稳定锁定计时	Lock stability timer
+空间相位延迟	Spatial phase delay
+等待对准	Awaiting alignment
+纳米柱阵列与相位延迟示意图，非真实制造版图。	Illustration of nanopillars and phase delay, not a fabrication layout.
+纳米结构调制局部相位 · 示意图，非真实版图	Local phase modulation · Illustration, not a fabrication layout
+纳米结构调制波前	Nanostructures shape the wavefront
+继续	Resume
+能量守恒，成对诞生	Energy conserved. Photons paired.
+能量守恒	Energy conservation
+自动对准演示	Auto-align
+自动校准中 · 正在将芯片移入目标位置	Auto-aligning · Moving the chip into position
+自发参量下转换	Spontaneous parametric down-conversion
+芯片交互实验室	Interactive chip laboratory
+芯片光学	Chip optics
+芯片塑造光场，光阱捕获原子。	Chips shape light. Optical traps hold atoms.
+芯片对准控制	Chip alignment controls
+芯片已锁定 · 目标光镊阵列已形成	Chip locked · Target trap array formed
+芯片微结构	Chip microstructure
+芯片相位整形	Chip phase shaping
+芯片设计	Chip design
+请使用浏览器全屏功能	Use your browser fullscreen control
+调节泵浦光与晶体，观察一个高能光子如何转化为两个低能光子。	Adjust the pump and crystal to see a high-energy photon convert into two lower-energy photons.
+超表面光镊光路图。使用方向键移动芯片，或使用左侧位置滑块对准。	Metasurface optical trap diagram. Move the chip using arrow keys or the position sliders.
+超表面光镊芯片	Metasurface optical tweezer chip
+超表面由亚波长纳米结构组成，可将入射光整形为多个聚焦光斑。在合适条件下，光学偶极力可用来捕获已有的冷原子。原子的内部能级可编码量子比特；量子态制备、量子门和读出需要额外系统，本演示不模拟这些步骤。	A metasurface uses subwavelength structures to shape incident light into multiple focused spots. Under suitable conditions, optical dipole forces trap existing cold atoms. Internal atomic states can encode qubits; state preparation, gates and readout require additional systems and are not simulated here.
+超表面的亚波长纳米结构可调制光的局部幅度、相位与偏振。设计好的空间响应可在目标平面形成多个光斑。这里的阵列选项表示更换不同的静态芯片设计；纳米柱图不是可制造版图，也没有进行电磁场求解。	Subwavelength metasurface structures can modulate local amplitude, phase and polarization to form multiple spots in a target plane. Array options represent different static chip designs. The nanopillar view is not a fabrication layout or an electromagnetic simulation.
+超表面相位整形	Metasurface phase shaping
+输出波前示意	Output wavefront illustration
+输出波长	Output wavelength
+返回实验	Back to experiment
+连续稳定时间	Stable duration
+退出全屏	Exit fullscreen
+选择实验	Choose experiment
+重新开始	Restart
+重新播放演示	Replay
+重置	Reset
+量子光学 · 交互实验室	Quantum optics · Interactive laboratory
+量子光学实验动态光路图	Animated quantum optics diagram
+锁定状态	Lock status
+阅读原理参考	Read the reference
+α 为动态极化率；正极化率时，原子趋向光强极大处。	α is the dynamic polarizability. For positive α, atoms are attracted to intensity maxima.
+依次点击 B1—B3、G1—G3 校准	Select B1–B3, then G1–G3 to align
+信号通道	Signal channel
+光场整形 → 物镜聚焦 → 光阱阵列	Field shaping → Objective → Trap array
+光学偶极势	Optical dipole potential
+光路校准	Optical alignment
+光镊操控原子，并不产生原子。	Optical tweezers trap atoms, not create them.
+匹配偏离，产生概率降低	Mismatch reduces pair generation
+单光子探测器	Single-photon detector
+原子光镊阵列	Atomic tweezer array
+双路光束已对准，阵列形成	Both paths aligned. Array formed.
+双路校准完成 · 阵列就绪	Both paths aligned · Array ready
+双路校准，聚焦成阵	Align two paths. Focus an array.
+双路光镊阵列	dual-path tweezer array
+反射镜校准	Mirror alignment
+合束镜	Beam combiner
+在满足相位匹配时，泵浦光可通过自发参量下转换产生信号光子和闲置光子。动画中的分支表示选取的收集方向，不代表完整发射分布。	With phase matching, spontaneous parametric down-conversion can produce signal and idler photons from the pump. Branches show selected collection directions, not the full emission distribution.
+将入射光子转换为电信号。演示采用 80% 的独立探测概率，不包含暗计数与死时间。	Converts incoming photons into electrical signals. The model uses independent 80% detection probability and omits dark counts and dead time.
+L1 将泵浦光聚焦到晶体；L2 与 L3 分别收集信号与闲置通道的光子，并送往对应探测器。	L1 focuses the pump onto the crystal. L2 and L3 collect the signal and idler photons for their respective detectors.
+已对准	Aligned
+开始演示	Start
+把经过整形的光场聚焦到原子平面，形成光镊势阱。光镊捕获已有原子，并不是制造原子或凭空产生量子。	Focuses the shaped field onto the atom plane to create optical trapping potentials. Tweezers trap existing atoms; they do not create atoms.
+提供 405 nm 泵浦光。进入非线性晶体的光子绝大多数并不发生下转换；本演示放大了稀有的光子对产生事件。	Supplies a 405 nm pump. Most photons entering the crystal do not down-convert. Rare pair-production events are visually amplified here.
+收集透镜	Collection lens
+改变光束传播方向，使光束进入后续光学元件。真实校准同时涉及位置、角度和光束模式。	Redirects the beam into subsequent optics. Real alignment involves position, angle and beam mode.
+校准完成	Aligned
+正在自动校准…	Auto-aligning…
+每个光斑代表一个可用于捕获原子的势阱位置。本演示只显示目标光场，不模拟真实原子装载、温度、占据率或量子门。	Each spot represents a potential atom-trapping site. Only the target light field is shown; atom loading, temperature, occupancy and quantum gates are not simulated.
+泵浦吸收器	Beam dump
+泵浦抑制	Pump rejection
+泵浦源	Pump source
+泵浦滤光片	Pump rejection filter
+泵浦激光器	Pump laser
+滤除残余泵浦光，让待测的下转换光子进入探测通道。	Rejects residual pump light before the down-converted photons enter the detection channels.
+演示已暂停	Paused
+点击校准	Click to align
+点击高亮的反射镜逐级对准，或选择自动校准。	Select each highlighted mirror or use auto-alignment.
+目标光阱平面	Target trap plane
+目标阵列	Target array
+相位失配，几乎不产生光子对	Strong mismatch: almost no pairs
+相对光强	Relative intensity
+示意将两路光场送入共同的聚焦光学系统；实际设计需根据波长、偏振与镀膜选择器件。	Combines two paths into shared focusing optics. Real components depend on wavelength, polarization and coating.
+空间光调制器 SLM	Spatial light modulator (SLM)
+空间光调制器塑造光场，物镜将其聚焦为光阱阵列，以光学偶极力捕获已有原子。对原子的初始化、相干操控与读出，才构成后续量子信息实验的步骤。	An SLM shapes the field and an objective focuses it into traps that hold existing atoms through optical dipole forces. Initialization, coherent control and readout are additional steps in quantum information experiments.
+等待合束…	Awaiting alignment…
+绿路光场	Green path
+绿路校准	Green path alignment
+聚焦透镜	Focusing lens
+蓝路光场	Blue path
+蓝路校准	Blue path alignment
+让光，排列微观世界。	Arrange the microscopic world with light.
+请先校准	First align
+逐级校准六面反射镜，将双路光束送入物镜，观察光阱阵列形成。	Align six mirrors to guide both beams into the objective and form the trap array.
+通过空间相位分布塑造光场，经过光学系统后形成多个聚焦光斑。此处展示概念光路，未计算真实全息相位。	Shapes the spatial phase to form multiple focused spots through the optical system. This conceptual layout does not calculate a holographic phase pattern.
+闲置通道	Idler channel
+阵列旋转角度	Array rotation
+非线性晶体 · 旋转台	Nonlinear crystal · Rotation stage
+非线性晶体	Nonlinear crystal
+颜色仅区分光路	Colors distinguish paths only
+高 NA 物镜	High-NA objective
+高数值孔径物镜	High-NA objective
+光子对实验	photon-pair experiment
+光子对产生	Photon pairs
+光镊阵列实验	tweezer array experiment
+光镊阵列	Optical tweezers
+自动校准	Auto-align
+反射镜	Mirror
+校准	Align
+信号光子	Signal photon
+闲置光子	Idler photon
+泵浦光	Pump light
+个光阱	traps
+相位	Phase
+对	pairs
+个	sites
+中文	Chinese
