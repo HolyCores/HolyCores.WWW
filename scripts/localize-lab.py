@@ -19,7 +19,7 @@ page_path = root / 'site/en-lab.html'
 page = translate(page_path.read_text(encoding='utf-8'))
 page = page.replace('Interactive demonstrations are in Chinese.', 'Explore both interactive experiments below.')
 page = re.sub(r'assets/quantum-optics(?:\.en)?\.js\?v=[^"\s]+',
-              'assets/quantum-optics.en.js?v=20260911-reference-mirror', page)
+              'assets/quantum-optics.en.js?v=20260911-taller-paths', page)
 for name, text in [('English page', page), ('English renderer', renderer)]:
     remaining = re.findall(r'[^<>\n]{0,40}[\u4e00-\u9fff]+[^<>\n]{0,70}', text)
     if remaining:
