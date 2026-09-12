@@ -1,0 +1,158 @@
+{
+  "index.html": {
+    "title": "AI 芯片、计算平台与医疗智能体 | HOLYCORES",
+    "description": "探索 HELIOS 芯片、SPARK 边缘计算、NOVA AI 加速、AETHER 系统及 HOLYFLOW 软件，了解医疗健康智能体与联合验证方案。"
+  },
+  "en.html": {
+    "title": "AI Chips, Computing Platforms & Healthcare Agents | HOLYCORES",
+    "description": "Explore HELIOS silicon, SPARK edge computing, NOVA acceleration, AETHER systems, HOLYFLOW software and healthcare agent solutions."
+  },
+  "products.html": {
+    "title": "AI 计算产品与平台架构 | HOLYCORES",
+    "description": "比较 HELIOS、SPARK、NOVA 与 AETHER 产品方向，了解从芯片、边缘设备到数据中心的计算平台和软件协同。"
+  },
+  "en-products.html": {
+    "title": "AI Computing Products & Platform Architecture | HOLYCORES",
+    "description": "Compare HELIOS, SPARK, NOVA and AETHER platform directions, spanning silicon, edge devices and datacenter systems."
+  },
+  "chips.html": {
+    "title": "HELIOS 元芯：自主 AI 芯片与先进封装 | HOLYCORES",
+    "description": "了解 HELIOS 元芯的 HCX C1、E1、D1 规划方向，探索计算架构、存储互联、先进封装与芯片制造流程。"
+  },
+  "en-chips.html": {
+    "title": "HELIOS: AI Silicon & Advanced Packaging | HOLYCORES",
+    "description": "Explore HELIOS HCX C1, E1 and D1 planning directions, compute architecture, memory fabric, packaging and chip manufacturing."
+  },
+  "spark.html": {
+    "title": "SPARK 灵核：边缘 AI 计算平台 | HOLYCORES",
+    "description": "了解 SPARK 边缘计算平台，探索低功耗推理、机器人、视觉终端和紧凑型系统的硬件与软件方案。"
+  },
+  "en-spark.html": {
+    "title": "SPARK: Edge AI Computing | HOLYCORES",
+    "description": "Explore SPARK edge computing for efficient inference, robotics, vision devices and compact systems with coordinated software."
+  },
+  "nova.html": {
+    "title": "NOVA 星核：数据中心 AI 加速平台 | HOLYCORES",
+    "description": "了解 NOVA 数据中心 AI 加速方向，探索训练、推理、多卡互联与规模化部署的系统设计和验证方法。"
+  },
+  "en-nova.html": {
+    "title": "NOVA: Datacenter AI Acceleration | HOLYCORES",
+    "description": "Explore NOVA datacenter AI acceleration, training and inference workloads, multi-device fabric and deployment validation."
+  },
+  "galaxy.html": {
+    "title": "AETHER 天穹：AI 计算系统 | HOLYCORES",
+    "description": "探索 AETHER AI 计算系统，从桌面开发到数据中心基础设施，了解节点互联、调度、监控与生命周期管理。"
+  },
+  "en-galaxy.html": {
+    "title": "AETHER: AI Computing Systems | HOLYCORES",
+    "description": "Explore AETHER AI systems, from desktop development to datacenter infrastructure, with fabric, scheduling and lifecycle management."
+  },
+  "software.html": {
+    "title": "HOLYFLOW：AI 编译与运行软件栈 | HOLYCORES",
+    "description": "了解 HOLYFLOW 软件栈，覆盖模型导入、图优化、编译、算子、运行时与性能分析，连接模型开发和部署。"
+  },
+  "en-software.html": {
+    "title": "HOLYFLOW: AI Compiler & Runtime Stack | HOLYCORES",
+    "description": "Discover HOLYFLOW model import, graph optimization, compilation, operators, runtime and performance analysis for AI deployment."
+  },
+  "solutions.html": {
+    "title": "AI 解决方案与部署验证 | HOLYCORES",
+    "description": "探索企业 AI、大模型推理、边缘智能与医疗健康应用方案，从工作负载定义到技术验证与持续优化。"
+  },
+  "en-solutions.html": {
+    "title": "AI Solutions & Deployment Validation | HOLYCORES",
+    "description": "Explore enterprise AI, LLM inference, edge intelligence and healthcare applications, from workload definition to validation."
+  },
+  "developers.html": {
+    "title": "开发者中心：AI 工具链与技术路径 | HOLYCORES",
+    "description": "了解 HOLYCORES 开发工具链、模型迁移、编译优化、运行分析与技术协作路径，探索开放计算平台。"
+  },
+  "en-developers.html": {
+    "title": "Developer Center: AI Tools & Engineering | HOLYCORES",
+    "description": "Explore HOLYCORES developer tools, model migration, compilation, runtime analysis and engineering collaboration."
+  },
+  "company.html": {
+    "title": "关于神核：AI 计算架构与协同创新 | HOLYCORES",
+    "description": "了解神核的计算平台方向、协同创新、质量验证、责任原则与合作生态，连接芯片、软件和实际工作负载。"
+  },
+  "en-company.html": {
+    "title": "About HOLYCORES: AI Computing & Innovation | HOLYCORES",
+    "description": "Learn about HOLYCORES computing platforms, collaborative innovation, quality validation, responsible engineering and partnerships."
+  },
+  "contact.html": {
+    "title": "联系我们：产品咨询与技术合作 | HOLYCORES",
+    "description": "提交产品咨询、AI 计算或医疗智能体合作需求，通过联系表单整理邮件，与 HOLYCORES 团队开展沟通。"
+  },
+  "en-contact.html": {
+    "title": "Contact: Product Enquiries & Collaboration | HOLYCORES",
+    "description": "Prepare an email enquiry for HOLYCORES product, AI computing or healthcare agent collaboration using the contact form."
+  },
+  "careers.html": {
+    "title": "加入神核：芯片、系统与 AI 人才 | HOLYCORES",
+    "description": "了解 HOLYCORES 团队与职业发展方向，探索芯片设计、系统工程、软件与 AI 应用领域的合作机会。"
+  },
+  "en-careers.html": {
+    "title": "Careers in Silicon, Systems & AI | HOLYCORES",
+    "description": "Learn about careers and engineering opportunities at HOLYCORES across silicon design, computing systems, software and AI."
+  },
+  "lab.html": {
+    "title": "实验室：量子光镊与超表面芯片演示 | HOLYCORES",
+    "description": "体验 SLM 双路光镊阵列与超表面芯片交互演示，探索量子芯片、光路校准和微观粒子操控。"
+  },
+  "en-lab.html": {
+    "title": "Laboratory: Optical Tweezers & Metasurfaces | HOLYCORES",
+    "description": "Explore interactive SLM dual-path optical tweezers and metasurface chip demonstrations, including optical alignment and particle control."
+  },
+  "rag-agents.html": {
+    "title": "医疗健康智能体与 RAG 知识检索 | HOLYCORES",
+    "description": "探索 12 类医疗健康智能体的执行流程，覆盖预约、诊前采集、随访、药事、文书与医学知识检索及人工复核。"
+  },
+  "en-rag-agents.html": {
+    "title": "Healthcare AI Agents & RAG Retrieval | HOLYCORES",
+    "description": "Explore 12 healthcare agent workflows for appointments, intake, follow-up, pharmacy, documentation and medical retrieval with human review."
+  },
+  "llm-inference.html": {
+    "title": "大模型推理：长上下文与规模部署 | HOLYCORES",
+    "description": "了解大模型推理的长上下文、时延、并发、吞吐与资源效率设计，探索部署边界和可复现验证方法。"
+  },
+  "en-llm-inference.html": {
+    "title": "LLM Inference: Long Context & Scale | HOLYCORES",
+    "description": "Explore LLM inference design for long context, latency, concurrency, throughput and resource efficiency with reproducible validation."
+  },
+  "medical-partners.html": {
+    "title": "医疗器械合作与联合验证 | HOLYCORES",
+    "description": "了解医疗器械计算平台合作方式，覆盖联合开发、工程验证、法规责任边界与产品生命周期支持。"
+  },
+  "en-medical-partners.html": {
+    "title": "Medical Device Partnerships & Validation | HOLYCORES",
+    "description": "Explore medical device computing partnerships, joint development, engineering validation, regulatory boundaries and lifecycle support."
+  },
+  "suppliers.html": {
+    "title": "半导体供应商合作与质量要求 | HOLYCORES",
+    "description": "了解 HOLYCORES 半导体供应商合作框架，覆盖质量追溯、交付协同、信息安全与负责任供应链。"
+  },
+  "en-suppliers.html": {
+    "title": "Semiconductor Supplier Partnerships | HOLYCORES",
+    "description": "Learn about HOLYCORES semiconductor supplier collaboration, quality traceability, delivery, security and responsible supply chains."
+  },
+  "chat.html": {
+    "title": "Ask Holycores | 医疗智能助手",
+    "description": "Ask Holycores 是面向医疗诊断辅助、健康管理、医疗器械与用药安全的专业智能服务。"
+  },
+  "en-chat.html": {
+    "title": "HOLYCORES Chat | General AI Conversation",
+    "description": "HOLYCORES Chat is a general AI conversation platform for knowledge exploration, content creation, problem analysis, and task assistance."
+  },
+  "career-details.html": {
+    "title": "开放职位 | HOLYCORES"
+  },
+  "en-career-details.html": {
+    "title": "Open Roles | HOLYCORES"
+  },
+  "lab-quantum-optics.html": {
+    "title": "量子光学 · 交互实验室"
+  },
+  "lab-metasurface-chip.html": {
+    "title": "超表面量子光镊 · 芯片交互实验室"
+  }
+}

@@ -10,7 +10,9 @@ root = Path(__file__).resolve().parent.parent
 source = root / 'site'
 output = root / 'dist'
 subprocess.run([sys.executable, str(root / 'scripts/localize-lab.py')], check=True)
+subprocess.run([sys.executable, str(root / 'scripts/prepare-seo.py')], check=True)
 subprocess.run([sys.executable, str(root / 'scripts/validate-site.py'), str(source)], check=True)
+subprocess.run([sys.executable, str(root / 'scripts/validate-seo.py')], check=True)
 if output.is_symlink() or output.resolve() != root / 'dist':
     raise RuntimeError('Unsafe static output path')
 if output.exists():
